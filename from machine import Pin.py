@@ -4,7 +4,7 @@ import dht
 
 # Initialize sensor on a GPIO pin (e.g., Pin 22)
 # Use dht.DHT11(Pin(22)) for DHT11 sensors
-sensor = dht.DHT22(Pin(0))
+sensor = dht.DHT22(Pin(22))
 
 while True:
     try:
